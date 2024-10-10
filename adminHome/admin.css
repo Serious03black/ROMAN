@@ -1,0 +1,39 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .header
+ {
+background-color: skyblue;
+line-height: 70px;
+padding-left: 30px;
+ }
+ a{
+    text-decoration: none;
+ }
+ .logout{
+    float: right;
+    padding-right: 30px;
+ }
+ul{
+background-color: gray;
+width: 16%;
+height: 100%;
+position: fixed;
+text-align: center;
+padding-top: 10px;
+}
+ul li{
+    list-style: none;
+    padding-bottom: 20px;
+    font-style: 15px;
+
+}
+ul li a{
+    color: white;
+    font-style: bold;
+}
+.content{
+    margin-top: 30px;
+    margin-left: 20%;
+}
