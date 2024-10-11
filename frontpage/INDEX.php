@@ -1,3 +1,14 @@
+<?php 
+error_reporting(0);
+session_start();
+session_destroy();
+if($_SESSION['message']){
+    $messagetype = $_SESSION['message'];
+    echo"<script type='text/javascript'>
+            alert('application sent sucessfully')
+    </script>";
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -72,29 +83,29 @@
         </div>
         <center>
             <div class="admission_form" aling="center">
-            <form action="">
+            <form action="data_check.php" method="POST">
                 <div>
                     <label class="lable_text" for="">Name</label>
-                    <input class="input_des" type="text"  name="">
+                    <input class="input_des" type="text"  name="Name">
                 </div>
                 <br>
                 <br>
                 <div>
                     <label class="lable_text" for="">Address</label>
-                    <input class="input_des" type="text" name="">
+                    <input class="input_des" type="text" name="Address">
                 </div>
                 <br>
                 <div>
                     <label class="lable_text" for="">Contact</label>
-                    <input class="input_des" type="text" name="">
+                    <input class="input_des" type="text" name="Contact">
                 </div><br>
                 <div>
                     <label class="lable_text" for="">MESSAGE</label>
-                    <textarea class="input_des" name="" id=""></textarea>
+                    <textarea class="input_des" name="" id="MESSAGE"></textarea>
                 </div>
                 <br>
                 <div>
-                    <input type="submit" name="">
+                    <input type="submit" name="applu">
                 </div>
             
             </form>
