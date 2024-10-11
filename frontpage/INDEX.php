@@ -107,11 +107,9 @@ if($_SESSION['message']){
                 <div>
                     <input type="submit" name="applu">
                 </div>
-            
             </form>
             </div>
         </center>
-
     <footer>
         <h2>All @Copyright reserve by the Serious BLack PRoduction</h2>
     </footer>
