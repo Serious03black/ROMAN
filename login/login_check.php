@@ -34,10 +34,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if ($row["usertype"] == "student") {
                 $_SESSION["usertype"]="student";
                 $_SESSION["username"] = $name;
-                header("Location: C:\xampp\htdocs\ROMAN\studentHome\studentHome.php");
+                $_SESSION["password"] = $pass;
+                header("Location:..\studentHome\studentHome.php");
             } elseif ($row["usertype"] == "admin") {
                  $_SESSION["usertype"]="Admin ";
                 $_SESSION["username"] = $name;
+                  $_SESSION["password"] = "pass1";
                 header("location:..\adminHome\adminHome.php");
             }
             exit(); // Exit after redirection

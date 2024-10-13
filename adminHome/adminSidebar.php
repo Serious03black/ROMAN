@@ -1,15 +1,17 @@
-
-
-    <ASide>
+ <header class="header"> 
+        <a href="">Admin Panel</a>
+        <div class="logout"><a href="logout.php">Logout</a></div>
+    </header>
+<ASide>
         <ul>
             <li>
                 <a href="admission.php">Addmission</a>
             </li>
             <li>
-                <a href="">Add student</a>
+                <a href="Add_student.php">Add student</a>
             </li>
             <li>
-                <a href="">View student</a>
+                <a href="View_student.php">View student</a>
             </li>
             <li>
                 <a href="">add teacher</a>
@@ -24,7 +26,4 @@
                 <a href="">view cource</a>
             </li>
         </ul>
-    </ASide>
-    <div class="content">
-        <h1>Admin Dashboard</h1>
-    </div> 
+</ASide>
