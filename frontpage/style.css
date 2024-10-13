@@ -1,84 +1,73 @@
-*{
-    padding: 0;
-    margin: 0;
-
+* {
+  padding: 0;
+  margin: 0;
 }
-
-
-nav{
-    position:fixed;
-    background-color: skyblue;
-    height: 70px;
-    z-index: 1;
-    width: 100%;
+nav {
+  position: fixed;
+  background-color: skyblue;
+  height: 70px;
+  z-index: 1;
+  width: 100%;
 }
-.logo{
-    font-size: 25px;
-    position:relative ;
-    left: 5%;
-    color: white;
-    font-weight:bold;
-    line-height: 70px;
+.logo {
+  font-size: 25px;
+  position: relative;
+  left: 5%;
+  color: white;
+  font-weight: bold;
+  line-height: 70px;
 }
-ul{
-    position: relative;
-    float: right;
-    margin-right: 20px;
+ul {
+  position: relative;
+  float: right;
+  margin-right: 20px;
 }
-ul li{
-    display: inline-block;
-    line-height: 70px;
-    margin: 0 5px;
+ul li {
+  display: inline-block;
+  line-height: 70px;
+  margin: 0 5px;
 }
-.main_img{
-    width: 100%;
-    height: 300px;
+.main_img {
+  width: 100%;
+  height: 300px;
 }
-.section1{
-    /* position: ; */
-    padding: 70px;
+.section1 {
+  /* position: ; */
+  padding: 70px;
 }
-.img_txt{
-    position: absolute;
-    top: 28%;
-    left: 40%;
-    color:white;
-    background-color: midnightblue;
-    padding-right: 20px;
-    font-size: 35px;
-
+.img_txt {
+  position: absolute;
+  top: 28%;
+  left: 40%;
+  color: white;
+  background-color: midnightblue;
+  padding-right: 20px;
+  font-size: 35px;
 }
-.welcome_img{
-    width: 100%;
-    height:250px ;
+.welcome_img {
+  width: 100%;
+  height: 250px;
 }
-.container{
-    padding: 70px;
-    /* display: flex; */
+.container {
+  padding: 70px;
 }
-col-md-4{
-    display: flex;
+col-md-4 {
+  display: flex;
 }
-.teacher{
-    width: 95%;
-    height: 200px;
+.teacher {
+  width: 95%;
+  height: 200px;
 }
-.lable_text{
-    display: inline-block;
-    width: 100px;
-    text-align: right;
-    padding-right:30px ;
+.lable_text {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  padding-right: 30px;
 }
-.input_des{
-    width: 30%;
-    height: 40%;
-    border-radius: 25px;
-    border: 1px solid;
-    background-color: skyblue;
-}
-footer{
-    background-color: black;
-    height: 70px;
-    width: 100%;
-    text-align: center;
+.input_des {
+  width: 30%;
+  height: 40%;
+  border-radius: 25px;
+  border: 1px solid;
+  background-color: skyblue;
 }

@@ -19,34 +19,11 @@ header("location:..\login\login.php");
         <div class="logout"><a  href="logout.php">logout</a></div>
     </header>
 
-    <ASide>
-        <ul>
-            <li>
-                <a href="">Admission</a>
-            </li>
-            <li>
-                <a href="">Add student</a>
-            </li>
-            <li>
-                <a href="">View student</a>
-            </li>
-            <li>
-                <a href="">add teacher</a>
-            </li>
-            <li>
-                <a href="">view teacher</a>
-            </li>
-            <li>
-                <a href="">add cource</a>
-            </li>
-            <li>
-                <a href="">view cource</a>
-            </li>
-        </ul>
-    </ASide>
+ <?php
+    include"adminSidebar.php";
+    ?>
     <div class="content">
-        <h1>SideBar accoroditon</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis harum voluptate ipsam possimus quod placeat? Itaque soluta, blanditiis doloribus aliquid harum ullam porro minima reiciendis nihil libero vel cupiditate accusantium.  </p>
+        <h1>Admin Dashboard</h1>
     </div>
 </body>
 </html>
