@@ -11,27 +11,19 @@
         <div class="title_deg">
             <label>Login</label>
         </div>
-       <form action="login_check.php" method="POST" class="login_form">
-    <div class="form_deg">
-       
-    </div>
-    <div class="form_deg">
-        <label class="lable_deg">Usertype</label>
-        <input type="text" name="usertype" required>
-    </div>
-    <div class="form_deg">
-        <label class="lable_deg">Username</label>
-        <input type="text" name="username" required>
-    </div>
-    <div class="form_deg">
-        <label class="lable_deg">Password</label>
-        <input type="password" name="password" required>
-    </div>
-    <div class="form_deg">
-        <input type="submit" value="Login">
-    </div>
-</form>
-
+        <form action="login_check.php" method="POST" class="login_form">
+            <div class="form_deg">
+                <label class="lable_deg">Username</label>
+                <input type="text" name="username" required>
+            </div>
+            <div class="form_deg">
+                <label class="lable_deg">Password</label>
+                <input type="password" name="password" required>
+            </div>
+            <div class="form_deg">
+                <input type="submit" value="Login">
+            </div>
+        </form>
     </center>
 </body>
 </html>

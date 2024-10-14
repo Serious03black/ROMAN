@@ -2,7 +2,6 @@
 session_start();
 session_destroy();
 header("location:..\login\login.php");
-
 $host = "localhost";
 $user = "root";
 $password = "";

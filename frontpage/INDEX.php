@@ -1,7 +1,6 @@
 <?php 
 error_reporting(0);
 session_start();
-
 if ($_SESSION['message']) {
     $messageType = $_SESSION['message'];
     echo "<script type='text/javascript'>

@@ -1,9 +1,5 @@
 <?php
 session_start();
-if (!isset($_SESSION['username'])or($_SESSION["usertype"]=="Admin")) {
-header("location:..\login\login.php");
-//if some one want to loggin without entering details it will send the user it to login.php
-}
 ?>
 <!DOCTYPE html>
 <html lang="en">

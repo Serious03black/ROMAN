@@ -11,7 +11,7 @@
 <body>
 
      <?php include "adminSidebar.php"; ?>
-    <div class="content">
+    <div >
         <center>
         <h2>Add Student</h2><br>
             <form action="add.php" method="POST">
